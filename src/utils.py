@@ -38,7 +38,7 @@ def display_model(model):
     Args:
         model (keras.Model): The model to display
     """
-    visualkeras.layered_view(model, draw_volume=False, legend=True)
+    return visualkeras.layered_view(model, draw_volume=False, legend=True)
 
 
 def display_results(history, execution_time, model_name = "model"):
